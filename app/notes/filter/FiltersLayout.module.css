@@ -1,0 +1,17 @@
+
+.container {
+  display: flex;       
+  gap: 20px;          
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.sidebarWrapper {
+  width: 250px;  
+  flex-shrink: 0;      
+  border-right: 1px solid #eee; 
+}
+
+.contentWrapper {
+  flex-grow: 1;       
+}
