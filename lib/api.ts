@@ -40,6 +40,7 @@ export const createNote = async (payload: CreateNote): Promise<Note> => {
   const { data } = await axios.post<Note>('/notes', payload, {
     headers: {
       Authorization: `Bearer ${process.env.NEXT_PUBLIC_NOTEHUB_TOKEN}`,
+      'Content-Type': 'application/json',
     },
   });
   return data;
@@ -62,3 +63,8 @@ export const fetchNoteById = async (noteId: string): Promise<Note> => {
   });
   return data;
 };
+
+export async function getCategories() {
+  const { data } = await axios.get<Category[]>('/categories');
+  return data;
+}
