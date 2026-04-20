@@ -26,7 +26,7 @@ export async function generateMetadata({
       title: `${filterName}-NoteHub`,
       description: `View notes by category: ${filterName}`,
       type: 'article',
-      url: `http://http://localhost:3000/notes/${filterName}`,
+      url: `http://localhost:3000/notes/${filterName}`,
       images: [
         {
           url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',

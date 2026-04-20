@@ -29,7 +29,7 @@ export async function generateMetadata({
         title: `${response.title} - NoteHub`,
         description: response.content,
         type: 'article',
-        url: `http://http://localhost:3000/notes/${id}`,
+        url: `http://localhost:3000/notes/${id}`,
         images: [{
           url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
           width: 1200,

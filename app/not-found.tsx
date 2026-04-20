@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       'Unfortunately, the requested page does not exist or has been deleted.',
     type: 'article',
-    url: `http://http://localhost:3000`,
+    url: `http://localhost:3000`,
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
